@@ -45,7 +45,7 @@ ENV NVIDIA_VISIBLE_DEVICES all
 ENV NVIDIA_DRIVER_CAPABILITIES compute,utility
 
 RUN jupyter notebook --generate-config
-VOLUME DUNE
+# VOLUME DUNE
 # RUN jupyter notebook --no-browser --ip='0.0.0.0' --allow-root
 
 ENTRYPOINT ["jupyter", "notebook", "--no-browser", "--allow-root", "--ip=0.0.0.0"]

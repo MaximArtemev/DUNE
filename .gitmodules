@@ -1,0 +1,3 @@
+[submodule "Tools/waveform-tools"]
+	path = Tools/waveform-tools
+	url = https://github.com/philiprodrigues/waveform-tools
