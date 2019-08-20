@@ -3,4 +3,5 @@
 *.tar
 *.ipynb_checkpoints
 *.pyc
+*.pdf
 Tools/waveform-tools/build/
